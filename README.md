@@ -1,10 +1,10 @@
-# Bahalul Hossain Chowdhury — 3D Digital Portfolio & Resume
+﻿# Bahalul Hossain Chowdhury — 3D Digital Portfolio & Resume
 
 A personal 3D digital portfolio and resume website built with **React 19**, **TypeScript**, **Vite**, **Tailwind CSS v4**, **Three.js WebGL**, and **Framer Motion**.
 
 ---
 
-## 🌟 Highlights
+## ✨ Highlights
 
 - **Accurate Single Source of Truth**: 100% of the content is derived directly from Bahalul Hossain Chowdhury's official resume and portrait photo. No fabricated statistics, testimonials, or placeholder names.
 - **Cinematic Dark 3D Environment**: Interactive WebGL particle constellation and floating geometric wireframe sculptures (Icosahedron, Torus Knot, Octahedron) that smoothly respond to cursor motion and scroll parallax.
@@ -21,20 +21,28 @@ A personal 3D digital portfolio and resume website built with **React 19**, **Ty
 
 ---
 
-## 🚀 Running the Project
+## 🚀 Running the Project from D: Drive
 
 ```bash
-# Navigate to the project directory
-cd C:\Users\Utshob\.gemini\antigravity-ide\scratch\bahalul-3d-portfolio
+# 1. Open terminal and navigate directly to your portfolio directory
+cd "D:\Utshob as a SE\Repository\portfolio"
 
-# Install dependencies (already installed)
-npm install
-
-# Start development server
+# 2. Run the development server
 npm run dev
 
-# Build production bundle
+# 3. Build production bundle for deployment
 npm run build
 ```
 
-The development server runs at `http://127.0.0.1:5173/`.
+The development server runs locally at `http://127.0.0.1:5173/`.
+
+---
+
+## 🌐 Deploy to Vercel
+
+1. Import the repository from GitHub: [https://github.com/chowdhurybahalulhossain/portfolio](https://github.com/chowdhurybahalulhossain/portfolio)
+2. Vercel automatically detects the Vite configuration:
+   - Framework: `Vite`
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+3. Click **Deploy**.
